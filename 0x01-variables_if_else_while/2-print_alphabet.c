@@ -5,12 +5,12 @@
  *
  * Return: 0 to indicate end of program
  */
-int main()
+int main(void)
 {
-	char ch;
+	char letter;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-		putchar(ch);		    
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
 
 	putchar('\n');
 	return (0);
