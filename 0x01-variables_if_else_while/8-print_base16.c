@@ -1,19 +1,20 @@
 #include <stdio.h>
 
 /**
- * main - function to print numbers in base 16
+ * main - function that prints out the lowercase letters
  *
- * Return: 0 to indicate end of function
+ * Return: 0 to indicate end of program
  */
 int main(void)
 {
 	int num;
+	char letter;
 
-	for (num = 0x0; num <= 0xF; num++)
-	{
-		char* base16 = (char*) &num;
-		putchar((char) base16);
-	}
+	for (num = 0; num < 10; num++)
+		putchar(num + '0');
+	for (letter = 'a'; letter <= 'f'; letter++)
+		putchar(letter);
+
 	putchar('\n');
 	return (0);
 }
