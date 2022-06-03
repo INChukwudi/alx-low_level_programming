@@ -5,7 +5,7 @@
 /**
  * main - fuctio that generates a umer ad checks if its status
  *
- * Retur: 0
+ * Return: 0
  */
 int main(void)
 {
