@@ -14,6 +14,11 @@ int print_last_digit(int c)
 	{
 		c = (-1) * c;
 	}
+	if (c == -2147483648)
+	{
+		_putchar('8');
+		return (8);
+	}
 
 	l = c % 10;
 	_putchar('0' + l);
