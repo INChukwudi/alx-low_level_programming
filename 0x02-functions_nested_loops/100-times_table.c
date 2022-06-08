@@ -29,13 +29,15 @@ void print_times_table(int n)
 				if ((d / 10) > 0)
 					_putchar (((d / 10) % 10) + '0');
 				else
+				{
 					_putchar(' ');
+					_putchar(' ');
+				}
 				_putchar((d % 10) + '0');
 
 				if (col < n)
 				{
 					_putchar(',');
-					_putchar(' ');
 					_putchar(' ');
 				}
 			}
