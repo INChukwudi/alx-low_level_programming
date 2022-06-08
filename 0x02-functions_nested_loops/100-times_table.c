@@ -37,8 +37,6 @@ void print_times_table(int n)
 					_putchar(',');
 					_putchar(' ');
 				}
-				if (col < 10)
-					_putchar(' ');
 			}
 			_putchar('\n');
 		}
