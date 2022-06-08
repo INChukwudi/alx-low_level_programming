@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * times_table - print out the times yable for 9
+ *
+ * Return: void
+ */
 void times_table(void)
 {
 	int row, col, d;
