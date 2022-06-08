@@ -1,17 +1,6 @@
 #include "main.h"
 
 /**
- * main - print the letters of the alphabet
- *
- * Return: 0
- */
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
-
-/**
  * print_alphabet - prints out the letters of the alphabet followed by a new line
  *
  * Return: void
