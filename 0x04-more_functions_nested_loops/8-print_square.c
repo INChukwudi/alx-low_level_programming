@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * print_square - function to print out a square of #
+ * @size: the size of the sqaure
+ *
+ * Return: void
+ */
 void print_square(int size)
 {
 	if (size > 0)
