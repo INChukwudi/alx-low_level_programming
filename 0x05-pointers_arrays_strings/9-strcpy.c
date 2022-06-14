@@ -2,7 +2,7 @@
 
 /**
  * _strcpy - cpoies a string pointed to by @src including the
- * 	terminating null byte to a buffer pointed to by @dest.
+ * terminating null byte to a buffer pointed to by @dest.
  * @dest: pointer to buffer
  * @src: pointer to string
  *
