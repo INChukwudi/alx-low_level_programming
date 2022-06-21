@@ -8,13 +8,13 @@
  *
  * Return: a pointer to the memory location
  */
-char *_memset(char *s, int b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
-	unsigned char *mem = s, val = c;
+	unsigned char *mem = s, val = b;
 
 	for (i = 0; i < n; i++)
-		mem[i] = value;
+		mem[i] = val;
 
 	return (mem);
 }
