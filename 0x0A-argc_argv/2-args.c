@@ -1,4 +1,4 @@
-#include <std.io.h>
+#include <stdio.h>
 
 /**
  * main - prints all arguments the function receives
