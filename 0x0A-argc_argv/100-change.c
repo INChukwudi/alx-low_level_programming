@@ -5,9 +5,9 @@
  * main - prints the minimum number of coins to make change
  *        for an amount of money
  * @argc: the number of arguments
- * @argv: array of pointers to the atguments
+ * @argv: array of pointers to the arguments
  *
- * Return: 1 if the number of arguments passed in isn't one
+ * Return: 1 if the number of arguments passed in is not one
  *         0 after succesful computation
  */
 int main(int argc, char *argv[])
@@ -29,25 +29,21 @@ int main(int argc, char *argv[])
 			cents -= 25;
 			continue;
 		}
-
 		if ((cents - 10) >= 0)
 		{
 			cents -= 10;
 			continue;
 		}
-
 		if ((cents - 5) >= 0)
 		{
 			cents -= 5;
 			continue;
 		}
-
 		if ((cents - 2) >= 0)
 		{
 			cents -= 2;
 			continue;
 		}
-
 		cents--;
 	}
 
