@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * concatenates all the arguments of the program
- * @sc: argument count
+ * argstostr - concatenates all the arguments of the program
+ * @ac: argument count
  * @av: array of argument values
  *
  * Return: pointer to the concatenated string
