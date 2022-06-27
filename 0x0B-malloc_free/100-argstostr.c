@@ -35,7 +35,7 @@ char *argstostr(int ac, char **av)
 		for (elem = 0; av[arg][elem]; elem++)
 			str[index++] = av[arg][elem];
 
-		str[index++] = '\n';
+		new_str[index++] = '\n';
 	}
 
 	new_str[size] = '\0';
