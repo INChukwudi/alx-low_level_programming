@@ -3,7 +3,7 @@
 
 /**
  * _calloc - allocates memory for an array using malloc
- * @nmeb: the umber of members of the array
+ * @nmemb: the umber of members of the array
  * @size: the size of the array members
  *
  * Return: pointer to the allocated memory
